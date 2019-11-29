@@ -36,33 +36,53 @@ MongoDB
 ##### landing page
 ![](screenshots/landingpage.png)
 
+
+
+
 ##### When a visitors comes to check in he will get to a page to fill his details
 ![](screenshots/check-in.png)
 
 
+
+
+
 ##### As soon as visitor checks in his details are stored in our database and a sms and an email sent to Host containing visitor details
 ###### SMS screenshot
-![](screenshots/HostSms.jpg)
+![](screenshots/HostSms.png)
+
+
+
 
 
 ###### Email screenshot
 ![](screenshots/HostEmail.png)
 
 
+
+
+
 ##### When a visitors wants to checkout, he gets to checkout page and has to enter his name and  phone number(primary key)
 ![](screenshots/check-out.png)
+
+
+
 
 
  ##### He will get an email of successfully checking out, containing details of his visit.
 
 ###### Email screenshot
-![](screenshots/VisitorEmail.jpg)
+![](screenshots/VisitorEmail.png)
+
+
+
 
 ## Highlights
 
 ### Errors display
 ##### For checkin, when the user details are entered for a user who is already checked in, Error message is displayed
 ![](screenshots/in-error.png)
+
+
 
 
 
@@ -74,11 +94,14 @@ MongoDB
 
 
 
+
 ### To Eliminate the redundancy in database:
 ##### Since the number of visitors would be far greater than number of hosts, two collections are made, one for visitor details and another for host details, and visitor details contains primary key of hosts collection  'host-email' (to map and retrieve other host details from host collection).
 
 ##### visitors collection & hosts collection db view
 ![](screenshots/db.png)
+
+
 
 
 
