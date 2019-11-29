@@ -112,9 +112,28 @@ MongoDB
 -  open the terminal.
 -  use `cd project` to enter in the folder.
 -  run `npm install` to install dependancies.
+
+-  To use the SMS and Email facility you have to enter your creditentials
+
+     For SMS:
+     
+     Add your Sid and authToken
+     
+     Enter your twilio Number at given space under path app.post('/checkin)->Visitor.find->Visitor.create
+     
+     For Email:
+     
+     Enter email id and password in attributes of transporter variable
+     
+     Enter email id at two places:
+     
+     1: app.post('/checkout')->Visitor.find->Visitor.create->mailOptions
+     
+     2: app.post('/checkout')->Visitors.find->Host.find->Host.updateOne->mailOptions
+
+
 -  Then run `node app.js`.
 -  Visit localhost:3000 to view your web page.
-
 
 
 
