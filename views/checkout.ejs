@@ -1,0 +1,30 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+           body{
+            background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+           }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="container">
+            <h1 class="jumbotron" style="text-align: center">Check-out</h1>
+            <div style="width: 30%; margin: 25px auto;">
+                <form action="/checkout" method="POST">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="name" placeholder="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="number" placeholder="mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                    </div>
+                </form>
+                <a href="/">Go Back</a>
+        </div>
+    </div>
+</body>
