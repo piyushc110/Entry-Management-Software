@@ -55,7 +55,7 @@ MongoDB
 
 
 ###### Email screenshot
-![](screenshots/HostEmail.png)
+![](screenshots/screenmail.png)
 
 
 
@@ -71,7 +71,7 @@ MongoDB
  ##### He will get an email of successfully checking out, containing details of his visit.
 
 ###### Email screenshot
-![](screenshots/VisitorEmail.png)
+![](screenshots/screenshotmail.png)
 
 
 
